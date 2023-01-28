@@ -1,0 +1,24 @@
+ul li{
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+}
+ul{
+    list-style: none;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+    overflow: auto;
+}
+.sidebar{
+    background-color: red;
+    width: 30%;
+    float: left;
+}
+.content{
+    background-color: blue;
+    width: 70%;
+    float: right;
+}
